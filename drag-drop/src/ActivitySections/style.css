@@ -1,0 +1,55 @@
+.finished_section_container, .active_section_container{
+    border: 1px solid red;
+    min-height: 150px;
+    margin: 0px 10px 10px 10px;
+    background-color: rgba(255, 255, 255, .4);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-height: 500px;
+    border-radius: 10px;
+    overflow: scroll;
+}
+
+.active_section_container{
+    border: 1px solid green
+}
+
+.active_section_container > span,.finished_section_container > span {
+    border: 1px solid green;
+    background-color: green;
+    color: white;
+    font-size: 26px;
+    width: 100%;
+    text-align: center;
+    padding: 10px 15px;
+}
+
+.finished_section_container > span{
+    border: 1px solid red;
+    background-color: red;
+}
+
+.activity_finished, .activity_active{
+    border-radius: 10px;
+    width: 70%;
+    background-color: #FF7074;
+    color: white;
+    border: 1px solid white;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding: 10px;
+}
+.activity_active{
+    background-color: #90ee90;
+}
+
+
+.activity_finished > div, .activity_active > div{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
